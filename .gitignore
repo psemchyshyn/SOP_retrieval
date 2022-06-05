@@ -1,0 +1,5 @@
+/__pycache__/
+/models/__pycache__/
+/checkpoints*
+/Stanford_Online_Products
+/index*

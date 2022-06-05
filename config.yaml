@@ -1,0 +1,16 @@
+train_data:
+  path: 'Stanford_Online_Products\\Ebay_train.txt'
+  image_size: 256
+  samples_per_class: 1000
+  contrastive: True
+
+test_data:
+  path: 'Stanford_Online_Products\\Ebay_test.txt'
+  image_size: 256
+  samples_per_class: 200
+  contrastive: True
+
+model:
+  lr: 0.001
+  batch_size: 32
+  num_classes: 12
